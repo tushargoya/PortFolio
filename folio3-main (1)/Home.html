@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <title>My Programming Skills</title>
+    <style>
+        /* Global Styles */
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+        }
+
+        h2 {
+            text-align: center;
+            background-color: skyblue;
+            padding: 10px;
+            margin: 0;
+            font-size: 24px;
+            color: #333;
+        }
+
+        .container-raw {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 20px;
+        }
+
+        ol {
+            padding-left: 40px;
+            line-height: 1.6;
+            max-width: 600px;
+            margin: 20px 0;
+            font-size: 16px;
+        }
+
+        /* Box Column Styles */
+        .box-clm {
+            max-width: 300px;
+            background-color: #fff;
+            padding: 20px;
+            color: #333;
+            font-weight: bold;
+            border-radius: 10px;
+            border: 2px solid #ddd;
+            text-align: center;
+            margin: 20px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        /* Progress Circle Styles */
+        progress {
+            display: inline-grid;
+            justify-content: center;
+            align-items: center;
+            width: 100px;
+            height: 100px;
+            border-radius: 50%;
+            margin: 10px 0;
+        }
+
+        .html1 {
+            background:
+                radial-gradient(closest-side, white 79%, transparent 80% 100%),
+                conic-gradient(yellow 75%, pink 0);
+        }
+
+        .html2 {
+            background:
+                radial-gradient(closest-side, white 79%, transparent 80% 100%),
+                conic-gradient(blue 65%, pink 0);
+        }
+
+        .html3 {
+            background:
+                radial-gradient(closest-side, white 79%, transparent 80% 100%),
+                conic-gradient(red 60%, pink 0);
+        }
+
+        /* Animation */
+        .row {
+            animation: slideIn 1.2s ease-in-out;
+        }
+
+        @keyframes slideIn {
+            from {
+                margin-left: 50%;
+                opacity: 0;
+            }
+
+            to {
+                margin-left: 0;
+                opacity: 1;
+            }
+        }
+
+        /* Responsive Design */
+        @media (max-width: 768px) {
+            ol {
+                padding-left: 20px;
+            }
+
+            .box-clm {
+                max-width: 90%;
+            }
+
+            h2 {
+                font-size: 20px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <h2>Welcome to my Home</h2>
+
+    <div class="container-raw">
+        <!-- Java Section -->
+        <div class="box-clm">
+            <h3><i class="fa-brands fa-java"></i> JAVA</h3>
+            <progress class="html1" min="0" max="100" value="92"></progress>
+        </div>
+
+        <!-- JavaScript Section -->
+        <div class="box-clm">
+            <h3><i class="fa-brands fa-js"></i> JavaScript</h3>
+            <progress class="html2" min="0" max="100" value="45"></progress>
+        </div>
+
+        <!-- C++ Section -->
+        <div class="box-clm">
+            <h3>C++</h3>
+            <progress class="html3" min="0" max="100" value="85"></progress>
+        </div>
+
+        <!-- Java Features -->
+        <ol class="row">
+            <li><strong>Platform Independence:</strong> Write once, run anywhere.</li>
+            <li><strong>Object-Oriented:</strong> Pure object-oriented programming language.</li>
+            <li><strong>Strongly Typed:</strong> Explicitly declared variable types.</li>
+            <li><strong>Garbage Collection:</strong> Automatic memory management.</li>
+            <li><strong>Exception Handling:</strong> Robust error-handling mechanisms.</li>
+            <li><strong>Multi-threading:</strong> Support for concurrent programming.</li>
+            <li><strong>Standard Library:</strong> Extensive library for common tasks.</li>
+            <li><strong>Security:</strong> Multiple security mechanisms.</li>
+            <li><strong>Popular Frameworks:</strong> Numerous frameworks available.</li>
+            <li><strong>Community:</strong> Large and active developer community.</li>
+            <li><strong>Compatibility:</strong> Backward compatibility maintained.</li>
+            <li><strong>Scalability:</strong> Suitable for small to large projects.</li>
+            <li><strong>Performance:</strong> Respectable performance with JIT compilation.</li>
+            <li><strong>Open Source:</strong> OpenJDK is the open-source reference implementation.</li>
+            <li><strong>Development Tools:</strong> Various IDEs available.</li>
+        </ol>
+
+        <!-- JavaScript Features -->
+        <ol class="row">
+            <li>C-like Syntax</li>
+            <li>High-Level, Interpreted Language</li>
+            <li>Client-Side Scripting</li>
+            <li>Dynamic Typing</li>
+            <li>Asynchronous Programming</li>
+            <li>Libraries and Frameworks (e.g., React, Angular)</li>
+            <li>Server-Side with Node.js</li>
+            <li>Security Concerns (e.g., XSS)</li>
+            <li>Cross-Origin Communication (AJAX, Fetch)</li>
+            <li>Active Developer Community</li>
+            <li>Supports Various Data Types</li>
+            <li>Performance Optimization Techniques</li>
+            <li>Browser Compatibility (cross-browser support)</li>
+        </ol>
+
+        <!-- C++ Features -->
+        <ol class="row">
+            <li>Influence on other languages like C#, Java, and Python</li>
+            <li>Widely used in system software, game development, and embedded systems</li>
+            <li>Cross-platform compatibility with compilers for various systems</li>
+            <li>Templates for generic programming</li>
+            <li>Exception handling for robust error management</li>
+            <li>Operator overloading for custom data types</li>
+            <li>Multiple inheritance support for object-oriented programming</li>
+            <li>Strongly typed with a rich type system</li>
+            <li>Rich standard library (STL) for data structures and algorithms</li>
+            <li>Efficient, low-level memory manipulation</li>
+            <li>Statically typed with compile-time type checks</li>
+            <li>Supports procedural and object-oriented programming paradigms</li>
+            <li>Extension of C with additional features</li>
+        </ol>
+    </div>
+
+</body>
+
+</html>
